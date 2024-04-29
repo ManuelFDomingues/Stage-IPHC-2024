@@ -1,0 +1,32 @@
+step=0.0000001
+//pas d'integration
+//purement arbitraire pour l'instant, juste pour voir si ca fonctionne
+frames=10000000
+maxPMs=500
+//dimensions du téléscope (à correler avec les dimensions emiphot et boite (+30 et +50)
+tele_hauteur=200
+tele_rayon=50
+tele_centre_x=0
+tele_centre_y=0
+tele_centre_z=-100
+
+emiphot_hauteur=230
+emiphot_rayon=75
+emiphot_centre_x=0
+emiphot_centre_y=0
+emiphot_centre_z=-115
+
+boite_hauteur=250
+boite_rayon=75
+boite_centre_x=0
+boite_centre_y=0
+boite_centre_z=-125
+
+
+
+//dimensions de la zone de génération des muons
+bornes_hauteur=2000
+bornes_rayon=200
+bornes_centre_x=0
+bornes_centre_y=0
+bornes_centre_z=-1000
