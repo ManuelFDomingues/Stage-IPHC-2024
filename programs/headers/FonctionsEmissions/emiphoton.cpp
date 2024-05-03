@@ -23,7 +23,7 @@ void emiphoton(neutrino & n, Reseau & reseau, std::ofstream & photondata){
         g.phi = rang(generator);
 
         photonmuon(n,g);
-        g.V = n.V;
+        g.V = 0.75*n.V;
         checkPM(g,reseau);
 
         for(std::size_t i=0;i<photonRAM.size();i++){std::cout<<photonRAM[i]<<std::endl;photondata<<photonRAM[i]<<std::endl;}

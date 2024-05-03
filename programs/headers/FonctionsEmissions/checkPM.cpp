@@ -29,7 +29,7 @@ void checkPM(photon & g, Reseau & reseau){
                     nbrinteractot+=1;
                     nbrinterac+=1;
                     std::ostringstream strg;
-                    strg<<temps<<" "<<r[0]<<" "<<r[1]<<" "<<r[2];
+                    strg<<temps*(dist/(g.V))<<" "<<r[0]<<" "<<r[1]<<" "<<r[2]; //temps*(dist/(g.V)) car on veut le temps de détection pas le temps d'émission. vphoton = 0.75c
                     std::string var = strg.str();
                     photonRAM.push_back(var);
                     }
